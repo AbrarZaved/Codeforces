@@ -15,19 +15,16 @@ int main() {
     for(int i=0;i<s.length();i++){
         for(int j=0;j<26;j++)
         if(s[i]==letters[j])
-            a[i]=values[j];
-        
-
-        int i,j,k,l;
-        if(abs(a[i]-ini)<13)
-        for(j=k;j<l;j++){
-            
-        }
-        cout<<a[i]<<" ";
+            a[i]=values[j];            
       
+
+        cout<<a[i]<<" ";
     }
-    
+
+      
 }
+    
+
 
     
 
