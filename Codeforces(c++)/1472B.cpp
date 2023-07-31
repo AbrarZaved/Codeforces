@@ -1,12 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-int sum(int A[],int n){
-    int sum=0;
-    for(int i=0;i<n;i++){
-        sum+=A[i];
-    }
-    return sum;
-}
 int main(){
     int t;
     cin>>t;
@@ -23,7 +16,6 @@ int main(){
             count2++;
         
         }
-        int d = sum(a,n);
         if(count1 %2==0){
             if(count2%2==0){
                 cout<<"YES"<<endl;
