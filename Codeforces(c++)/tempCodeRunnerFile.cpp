@@ -1,6 +1,4 @@
-    // else if(b>a/2){
-    //     count=(a/2)+2;
-    //     for(int i=2;count!=b;i+=2)
-
-
-    // }
+if(c<3)
+        cout<<endl<<-1<<endl;
+        else
+        cout<<endl<<ans<<endl<<endl;
