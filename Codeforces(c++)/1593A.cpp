@@ -6,7 +6,7 @@ int maximum(int A[],int n){
         if(A[i]>max)
         max=A[i];
     }
-    return max;
+    return max;  
 }
 int main(){
     int t;
