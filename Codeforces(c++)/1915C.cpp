@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-long long int sum(long long int a[],int n){
+long long int sum(long long int a[],long long int n){
     long long int sum=0;
     for(long long int i=0;i<n;i++){
         sum+=a[i];
