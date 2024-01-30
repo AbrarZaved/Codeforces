@@ -23,6 +23,7 @@ for _ in range(t):
         for i in range(len(b)-1):
             if b[i]+b[i+1]<=d:
                 count+=1
+                break
         
         if count != 0:
             print("YES")
