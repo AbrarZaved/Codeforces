@@ -8,6 +8,3 @@ for _ in range(t):
     else:
         print("NO")
     
-        
-    
-    
