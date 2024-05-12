@@ -1,15 +1,22 @@
-import random 
-t = int(input())
-
-for _ in range(t):
-    a = input()
-    b = random.sample(a,len(a))
-    
-    d = "".join(b)
-    if a==d:
+def solve():
+    s = input()
+    ok = False
+    for i in range(1, len(s)):
+        if s[i] != s[0]:
+            new_s = list(s)
+            new_s[i], new_s[0] = new_s[0], new_s[i]
+            s = "".join(new_s)
+            ok = True
+            break
+    if not ok:
         print("NO")
-    else:
-        print("YES")
-        print(d)
-  
-    
+        return
+    print("YES")
+    print(s)
+
+def main():
+    tt = int(input())
+    for i in range(1, tt+1):
+        solve()
+
+main()
