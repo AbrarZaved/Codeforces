@@ -1,6 +1,9 @@
 {
   "C_Cpp.errorSquiggles": "enabled",
+<<<<<<< HEAD
 
+=======
+>>>>>>> a1173defe16d2ead6cc7b1642d086ba68eeae209
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true
 }
