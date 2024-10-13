@@ -13,3 +13,5 @@ for _ in range(t):
     b = list(map(int, input().split()))
     hehe = sum(b)
     print(hehe)
+
+#First Solve after Bangldesh got it's second Independent
