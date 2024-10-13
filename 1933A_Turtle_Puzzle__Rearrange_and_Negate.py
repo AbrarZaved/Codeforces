@@ -14,4 +14,4 @@ for _ in range(t):
     hehe = sum(b)
     print(hehe)
 
-#First Solve after Bangldesh got it's second Independent
+#First Solve after Bangldesh got it's second independent
